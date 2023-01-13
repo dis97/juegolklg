@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <title>Parte 1</title>
+	</head>
+	<body>	
+		<script>
+			var entrar;
+            var irl;
+            var eplor;
+            var sace;
+            var peri;
+            var espa;
+            var cigle;
+            var pala;
+            var dip;
+            var dmv;
+            var hjn;
+            var amj;
+            var seg;
+            var mad;
+            var dip;
+
+            alert("te encuentras en la entrada de el orfanato,");
+            entrar=prompt("Deseas entrar o ir a otro lado?");
+            switch (entrar) {
+                    case "entrar":
+                    alert("has entrado al orfanato, no hay nadie a tu alrededor...");
+						eplor=prompt("puedes explorar o esperar en la entrada, que deseas hacer?");
+						if (eplor=="explorar")
+						{
+							alert("bien a explorar se ha dicho!,");
+                                sace=prompt("deseas ir a la sala central o la sala de reunion?");
+                                switch (sace) {
+                                    case "sala central":
+                                    case "ir a la sala central":
+                                    case "ir a sala central":
+                                    alert("has llegado a la sala central, personal del orfanato se encuentra ahí");
+                                        pala=prompt("Pedir ayuda o pasar de largo?");
+                                        switch (pala) {
+                                            case "pedir ayuda":
+                                            alert("el personal del orfanato se ofrece a llevarte con la directora");
+                                                dip=prompt("ir con la directora o negarte?");
+                                                switch (dip) {
+                                                    case "ir":
+                                                    case "ir con la directora":
+                                                    alert(" entras a un pasillo de masiado oscuro y peligroso, existen manchas raras y un olor fetido");
+                                                    break;
+                                                    case "negarte":
+                                                    case "negar":
+                                                    alert("el personal se va, vuelves a quedarte solo en la sala...");
+                                                    break;
+                                                    default:
+                                                    alert("respuesta invalida");
+                                                }
+                                            break;
+                                            case "pasar de largo":
+                                            alert("has pasado de largo y has llegado a un dormitorio vacio,");
+                                                dmv=prompt("revisar el cuarto o  salir de ahí?");
+                                                switch (dmv) {
+                                                    case "revisar el cuarto":
+                                                    alert("has encontrado una foto extraña en la pared");
+                                                    break;
+                                                    case "salir de ahí":
+                                                    alert("te has topado con Juan!!");
+                                                        hjn=prompt("dile hola a juan!!!");
+                                                        if (hjn=="hola juan")
+                                                        {
+                                                            alert("juan esta contento y quiere jugar contigo");
+                                                        }
+                                                        else
+                                                        {
+                                                            alert("juan esta triste :(");
+                                                            alert(" juan pregunta si son amigos");
+                                                                amj=prompt("sigues siendo amigo de juan?");
+                                                                switch (amj) {
+                                                                    case "si":
+                                                                    alert ("genial! juan te ha dado un regalo");
+                                                                    break;
+                                                                    case "no":
+                                                                    alert ("a juan no le agrada esa respuesta...");
+                                                                    break;
+                                                                    default:
+                                                                    alert("respuesta invalida");
+                                                                }
+                                                        }
+                                                    break;
+                                                    default:
+                                                    alert("respuesta inválida");
+                                                }
+                                            break;
+                                            default:
+                                            alert("respuesta invalida");
+                                        }
+            
+                                    break;
+                                    case "sala de reunion":
+                                    case "ir a la sala de reunion":
+                                    case "ir a sala de reunion":
+                                    alert("la directora del orfanato te recibe en la sala de reunión y te da la bienvenida");
+                                        dip=prompt("hablar con la directora o retirarte amablemente");
+                                        switch (dip) {
+                                        case "hablar con la directora":
+                                        case "hablar":
+                                        case "hablar con ella":
+                                        alert("quiéres saber cómo llegaste a este lugar?");
+                                        break;
+                                        case "retirar":
+                                        case "retirarme":
+                                        case "retirarme amablemente":
+                                        alert("la directora se despide de ti y te vas");
+                                        break;
+                                        default:
+                                        alert("respuesta invalida";)
+                                        }
+                                    break;
+                                    default:
+                                    alert("respuesta inválida");
+                                }
+						}
+                        else 
+                        {
+                            alert("has decidido esperar en la entrada, a lado tuyo hay un botón que llama a alguien");
+                                espa=prompt("Esperas o llamar al boton?");
+                                    switch (espa) {
+                                        case "esperar":
+                                        alert("la espera es bastante perturbadora no? hay mucho silencio...");
+                                            seg=prompt("de verdad estas seguro de segui aquí?");
+                                            switch (seg) {
+                                                case "si":
+                                                alert("... hay alguien detrás de ti...");
+                                                break;
+                                                case "no":
+                                                alert("...sal de aquí...");
+                                                break;
+                                                default:
+                                                alert("respuesta inválida");
+                                            }
+                                        break;
+                                        case "llamar al boton":
+                                        alert("ha aparecido la directora del orfanato, a donde iras con ella?");
+                                        break;
+                                        default:
+                                        alert("respuesta invalida");
+                                    }
+                        }
+					break;
+                    case"ir a otro lado":
+					case "otro lado":
+                    alert("te encuentras en medio de la acera,");
+                        cigle=prompt("tomarás el camino de la izquierda o derecha?");
+                            switch (cigle) {
+                                case "izquierda":
+                                alert("has llegado a la iglesia del pueblo,");
+                                break;
+                                case "derecha":
+                                alert("has llegado a tu hogar, ves la sommbra de tu madre en la ventana");
+                                    mad=prompt("quieres ir con ella o esperas más");
+                                    switch (mad) {
+                                        case "ir con ella":
+                                        case "ir":
+                                        case "ir con mamá":
+                                        case "ir con mama":
+                                        alert("has entrado a la casa, escuchas ruido en la cocina, debe ser mamá");
+                                        break;
+                                        case "esperar":
+                                        case "esperar más":
+                                        case "esperar mas":
+                                        alert("mamá se ha ido de la cocina, por qué no te ha buscado?");
+                                        break;
+                                        default:
+                                        alert("respuesta invalida");
+                                    }
+                                break;
+                                default:
+                                alert("respuesta invalida");
+                            }
+                    break;
+                    default:
+                    alert("respuesta invalida");
+            }
+		</script>
+	</body>
+</html>
